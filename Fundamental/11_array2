@@ -1,0 +1,14 @@
+let nums = [];
+
+nums[0] = 50;
+nums[99] =43;
+
+for (let n in nums) {
+    console.log(n);
+}
+    console.log('length is: ',nums.length);
+
+
+for (let keys in nums) {
+    console.log(nums[keys]);
+}

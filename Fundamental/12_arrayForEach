@@ -1,0 +1,13 @@
+let a = 5;
+let b = 6;
+
+[a, b] = [b, a]
+
+console.log(a, b, b, a)
+
+// splitting strings in js
+let words = "Hello my people I want to make you all proud";
+let words2 = words.split(' ');
+
+console.log( words);
+console.log( words2);
