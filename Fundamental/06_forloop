@@ -1,0 +1,21 @@
+let x = 30;
+let i;
+
+let alien = {
+    name: 'Tony',
+    tech: 'JS',
+    laptop: {
+        cpu: 'core i5',
+        ram :'8Gb',
+        brand :'Mac',
+    }
+
+}
+
+for (i=1; i <=3; i++){
+    //console.log("How are you boy");
+}
+for (let key in alien.laptop) {
+    console.log(key,
+        alien.laptop[key])
+}
